@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+/* Body styles */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* Header Styles */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px #EDEDED;
+}
+
+header .container{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header .container .content-img{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container .content-img img{
+    width: 100%;
+}
+
+header .container .content-nav{
+    width: 60%;
+}
+
+header .container .content-nav nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header .container .content-nav nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+}
+
+header .container .content-nav nav ul li{
+    padding: 5px 10px ;
+    font-family: 'Source Code Pro', monospace;
+}
+
+header .container .content-nav nav ul li a{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header .container .content-logs{
+    width: 20%;
+    display: flex;
+}
+
+header .container .content-logs div{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .container .content-logs div:nth-child(1){
+    display: flex;
+    justify-content: end;
+    margin-right: 3px;
+}
+
+header .container .content-logs div:nth-child(2){
+    justify-content: start;
+    display: flex;
+    margin-left: 3px;
+}
+
+header .container .content-logs div a svg{
+    width: 1.8rem;
+    height: 1.8rem;
+}
+/* End Header Styles */
+
+/* Styles footer */
+
+footer{
+    border-top: solid rgb(58, 58, 58) 2px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer div span{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    color: rgb(36, 36, 36);
+}
+
+/* End Styles Footer */
