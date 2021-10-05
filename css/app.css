@@ -189,7 +189,13 @@ main{
     margin-left: 10px;
     display: flex;
 }
+.icons{
+    
+    display: flex;
+    justify-content: center;
+    
 
+}
 #cajas4{
     width: 41.5%;
     height: 18vh;
@@ -228,7 +234,7 @@ main{
 #cajas7{
     width: 80%;
     height: 30vh;
-    background-color:darksalmon;
+    background-color:lightseagreen;
     border-radius: 1em;
     justify-content: center;
     float: left;
@@ -254,8 +260,8 @@ main{
 }
 
 .galeria {
-    height: calc( 300px + 3em);
-    width:70%;
+    height: calc( 400px + 2em);
+    width:40%;
     margin:1em auto;
     border: 1px solid #555;
     position: relative;  
@@ -271,7 +277,7 @@ main{
   
 .galeria input[type=radio] {
     position: relative;
-    bottom: calc(-300px - 1.5em);
+    bottom: calc(-400px - 1.5em);
     left: .5em;
   }
   
@@ -291,24 +297,7 @@ main{
     opacity: 1;
   }
 
-#caja4{
-    width: 33.33%;
-    height: 30vh;
-    background-color:lightslategrey;
-    display: flex;
-    margin-top: 10px;
-    display: flex;
-    
-}
-#caja5{
-    width: 33.33%;
-    height: 30vh;
-    background-color:orange;
-    display: flex;
-    margin-left: 10px;
-    margin-top: 10px;
-    display: flex;
-}
+
 
 
 /* End Styles Footer */
