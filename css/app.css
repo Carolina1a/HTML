@@ -256,7 +256,33 @@ main{
     margin-right: 0.8px;
     margin-top: 10px;
 }
-
+#cajas9{
+    width: 80%;
+    height: 30vh;
+    background-color:bisque;
+    border-radius: 1em;
+    justify-content: center;
+    float: left;
+    margin-left: 10px;
+    margin-right: 0.8px;
+    margin-top: 10px;
+}
+#cajas10{
+    width: 64%;
+    height: 18vh;
+    background-color:dimgrey;
+    border-radius: 1em;
+    justify-content: center;
+    float: left;
+    margin-left: 10px;
+    margin-right: 0.8px;
+    margin-top: 10px;
+}
+.foto10{
+    padding: 10px;
+    margin-top: 10px; 
+    float: right; 
+}
 .galeria {
     height: calc( 400px + 2em);
     width:40%;
